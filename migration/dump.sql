@@ -1,7 +1,8 @@
 
 CREATE TABLE `post` (
   `id` int NOT NULL,
-  `id_utilisateur` int NOT NULL,
+  `id_utilisateur`int,
+  `name_user` varchar(255) NOT NULL,
   `contenu` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
